@@ -44,3 +44,10 @@ match len(config.module_list):
 match current_machine:
     case "client":
         import client.recording as recording
+    case "server":
+        #print(f"Here before server.model_load")#Debugging
+        #import server.model_load as model_load 
+        #print(f"Here before server.server_function")#Debugging
+        import server.server_function as server_function
+        print(f"\n\nHere after server.server_function")#Debugging
+        
