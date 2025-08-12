@@ -2,3 +2,5 @@ config.py
 .obsidian
 __pycache__
 .screenshots
+.finetuned_model_export
+.models
